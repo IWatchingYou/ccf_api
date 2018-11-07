@@ -19,14 +19,15 @@ module.exports = (sequelize, DataTypes) => {
     email: DataTypes.STRING(50),
     first_name: DataTypes.STRING(50),
     last_name: DataTypes.STRING(50),
-    active_stat: DataTypes.BOOLEAN
+    active_stat: DataTypes.BOOLEAN,
+    contact_number: DataTypes.STRING(50),
+    job_grade: DataTypes.STRING(1)
   }, {
     createdAt: 'created_date',
     updatedAt: 'created_date',
     schema: 'hr',
   });
   Employee.associate = function(models){
-    
   }
   return Employee;
 }

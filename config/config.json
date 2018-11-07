@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "ccf",
-    "password": "freepwd0@ccf",
+    "password": "freepwd",
     "database": "ccf",
-    "host": "192.168.111.211",
+    "host": "192.168.111.62",
     "dialect": "postgres"
   },
   "test": {
     "username": "ccf",
-    "password": "freepwd0@ccf",
+    "password": "freepwd",
     "database": "ccf",
-    "host": "192.168.111.211",
+    "host": "192.168.111.62",
     "dialect": "postgres"
   },
   "production": {
     "username": "ccf",
-    "password": "freepwd0@ccf",
+    "password": "freepwd",
     "database": "ccf",
-    "host": "192.168.111.211",
+    "host": "192.168.111.62",
     "dialect": "postgres"
   }
 }
